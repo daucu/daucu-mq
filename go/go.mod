@@ -1,4 +1,4 @@
-module daucu-mq
+module github.com/daucu/daucu-mq/go
 
 go 1.20
 

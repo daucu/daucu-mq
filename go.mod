@@ -1,0 +1,1 @@
+module daucu-mq-test

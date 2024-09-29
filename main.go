@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/daucu/daucu-mq/go"
 	"time"
-	"daucu-mq"
 
 	"github.com/go-redis/redis/v8"
 )
@@ -47,7 +47,7 @@ func main() {
 		fmt.Println("Error pulling message:", err)
 	} else {
 		fmt.Println("Processing message:", pulledMsg.Data)
-		
+
 		// Simulate success or failure
 		success := true
 
